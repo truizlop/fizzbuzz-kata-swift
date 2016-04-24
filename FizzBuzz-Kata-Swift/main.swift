@@ -8,5 +8,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
+let fizzbuzz = FizzBuzz()
+(1...100).map{ ($0, fizzbuzz.transform($0)) }.forEach{ (number, transformation) in print("\(number) -> \(transformation)") }
