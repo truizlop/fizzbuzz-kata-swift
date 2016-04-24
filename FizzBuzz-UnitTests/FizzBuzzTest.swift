@@ -18,6 +18,7 @@ class FizzBuzzTest : QuickSpec{
             let ANY_NUMBER_AS_STRING = "2"
             let MULTIPLE_OF_THREE = 9
             let MULTIPLE_OF_FIVE = 125
+            let MULTIPLE_OF_THREE_AND_FIVE = 30
             
             var fizzbuzz : FizzBuzz!
     
@@ -35,6 +36,10 @@ class FizzBuzzTest : QuickSpec{
             
             it("should return buzz if the number is multiple of 5"){
                 expect(fizzbuzz.transform(MULTIPLE_OF_FIVE)) == "buzz"
+            }
+            
+            it("should return fizzbuzz if the number is multiple of 3 and 5"){
+                expect(fizzbuzz.transform(MULTIPLE_OF_THREE_AND_FIVE)) == "fizzbuzz"
             }
         }
     }
