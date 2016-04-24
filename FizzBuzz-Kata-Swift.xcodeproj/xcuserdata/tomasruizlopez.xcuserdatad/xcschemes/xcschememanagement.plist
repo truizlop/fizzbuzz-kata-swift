@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>FizzBuzz-UnitTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>112512DB1CCCCF3A00E84BE9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>112512E91CCCCF8700E84BE9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
